@@ -1,0 +1,5 @@
+{
+    "watch": ["server.js", "api/"],
+    "ignore": ["node_modules", "dist", "vite.config.js"],
+    "ext": "js,json"
+}

@@ -1,0 +1,42 @@
+.btn {
+    width: 50%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    color: white;
+    margin-bottom: 30px;
+    transition: 0.1s;
+    font-family: "Calibri", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.copy {
+    background-color: #55b19a;
+}
+
+.clear {
+    background-color: #d1836b;
+}
+
+.copy:hover {
+    background-color: #6ad8bc;
+    transition: 0.2s;
+}
+
+.clear:hover {
+    background-color: #f89c80;
+    transition: 0.2s;
+}
+
+.copy:active {
+    background-color: #449e88;
+    transition: 0.1s;
+}
+
+.clear:active {
+    background-color: #a05b46;
+    transition: 0.1s;
+}

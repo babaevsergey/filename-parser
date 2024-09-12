@@ -1,0 +1,39 @@
+/* .checkbox {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 5px;
+} */
+
+.checkbox {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #fafafa;
+}
+
+.immediate {
+    width: 15px;
+    height: 15px;
+    border: #696969;
+    border-radius: 3px;
+}
+
+/* .checkbox label {
+    padding-bottom: 2px;
+} */
+
+/* .immediate {
+    width: 15px;
+    height: 15px;
+    border: #696969;
+    margin-right: 10px;
+} */

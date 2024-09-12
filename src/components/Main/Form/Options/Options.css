@@ -1,0 +1,15 @@
+.select {
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.not-allow {
+    pointer-events: none;
+    opacity: 0.5;
+}

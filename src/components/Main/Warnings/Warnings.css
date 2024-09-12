@@ -1,0 +1,16 @@
+.warning {
+    text-align: center;
+    color: #ff7c25;
+    font-family: "Calibri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}

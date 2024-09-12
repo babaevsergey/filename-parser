@@ -1,0 +1,27 @@
+.numbers {
+    box-sizing: border-box;
+    width: 130px;
+    height: 366px;
+    border-radius: 5px;
+    color: #696969;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    font-family: "Calibri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    background-color: #fafafa;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+.numbers ul li {
+    text-align: right;
+    line-height: 1.4em;
+}
+
+.numbers ul li span{
+    margin-right: 8px;
+    color: #c4c4c4;
+}

@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #777777;
+}

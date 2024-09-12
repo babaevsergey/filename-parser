@@ -1,0 +1,18 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input {
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #fafafa;
+    text-align: center;
+}
+

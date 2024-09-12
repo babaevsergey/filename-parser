@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid #bdbdbd;
+    margin-bottom: 20px;
+    font-family: "Calibri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.total-length {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #8b8b8b;
+    width: 130px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: white;
+}
