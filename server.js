@@ -23,9 +23,8 @@ async function createServer() {
 
   app.get('/api/materials', async (req, res) => {
     try {
-      console.log('GET /api/materials');
       const data = await readFile(filePath, 'utf-8');
-      console.log('data', data);
+
       // Отключаем кеширование
       res.setHeader('Cache-Control', 'no-store');
       res.setHeader('Pragma', 'no-cache');
